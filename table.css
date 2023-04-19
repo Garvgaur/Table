@@ -1,0 +1,38 @@
+@import url('https://fonts.googleapis.com/css2?family=Alkatra:wght@400;500;600;700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+*{
+    font-family: 'Alkatra', cursive;
+font-family: 'Roboto', sans-serif;
+}
+table{
+    border: 2px solid black;
+    border-radius: 10px;
+    background:#b96262;
+    width: 800px;
+    height: 400px;
+    margin: auto;
+    margin-top: 100px;
+    text-align: center;
+    border-collapse: collapse;
+    overflow: hidden;
+}
+
+table, th, td{
+    color: #ffff;
+    padding: 10px;
+    border-bottom: 1px solid black;
+}
+
+table th{
+    font-weight: 500;
+    color: white;
+    background: black;
+}
+
+td{
+    cursor: pointer;
+}
+
+table tr:hover { 
+    background-color: #672e2e;
+}
+
